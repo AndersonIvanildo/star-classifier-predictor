@@ -18,7 +18,7 @@ To use this project, follow these steps:
 Clone the repository:
 
 ```
-git clone https://github.com/AndersonIvanildo/review-rating-predictor.git
+git clone https://github.com/AndersonIvanildo/star-classifier-predictor.git
 ```
 
 Initialize Poetry:
