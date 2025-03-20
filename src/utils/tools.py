@@ -47,13 +47,8 @@ def remove_space_unecessary(inputString: str) -> str:
     Returns:
         str: String without space unecessary.
     """
-    # Remove leading and trailing spaces
     input_string = inputString.strip()
-
-    # Replace multiple spaces with a single space
     input_string = re.sub(r'\s+', ' ', input_string)
-
-    # Optionally, remove spaces before punctuation
     input_string = re.sub(r'\s([?.!,:;])', r'\1', input_string)
 
     return input_string
