@@ -5,8 +5,8 @@ def main():
     This project is the main file when the streamlit will run
     """
     # Configuração da página
-    st.set_page_config(page_title="Texto em Tempo Real", layout="wide")
-    st.title("Conversor de Texto em Tempo Real 🚀")
+    st.set_page_config(page_title="Predictor de Estrelas para Comentários", layout="wide")
+    st.title("Predictor de Estrelas para Comentários")
 
     # Criar colunas
     col1, col2 = st.columns(2)
@@ -18,7 +18,7 @@ def main():
             "Digite seu texto aqui:",
             height=300,
             placeholder="Comece a digitar...",
-            key="input"
+            key="input",
         )
 
     # Coluna de saída
